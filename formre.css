@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f9fafc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #004e92;
+  margin-bottom: 10px;
+}
+
+center h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #004e92;
+  margin: 20px 0;
+}
+
+/* Form styling */
+form {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+label {
+  font-weight: 600;
+  color: #444;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #004e92;
+  box-shadow: 0 0 6px rgba(0,78,146,0.3);
+  outline: none;
+}
+
+/* Radio & checkbox spacing */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+  background: #004e92;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background: #006bb3;
+  transform: translateY(-2px);
+}
+
+/* Table styling */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table th {
+  background: #004e92;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background: #f2f6fa;
+}
+
+/* Marquee styling */
+marquee {
+  background: #004e92;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 20px;
+}

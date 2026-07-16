@@ -27,8 +27,6 @@ hr {
   border-top: 2px solid #004e92;
   margin: 20px 0;
 }
-
-/* Form styling */
 form {
   max-width: 800px;
   margin: 20px auto;
@@ -44,7 +42,6 @@ label {
   display: inline-block;
   margin-bottom: 6px;
 }
-
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -58,20 +55,15 @@ textarea {
   margin-bottom: 15px;
   transition: border-color 0.3s, box-shadow 0.3s;
 }
-
 input:focus, select:focus, textarea:focus {
   border-color: #004e92;
   box-shadow: 0 0 6px rgba(0,78,146,0.3);
   outline: none;
 }
-
-/* Radio & checkbox spacing */
 input[type="radio"],
 input[type="checkbox"] {
   margin-right: 6px;
 }
-
-/* Buttons */
 input[type="submit"],
 input[type="reset"] {
   background: #004e92;
@@ -84,37 +76,29 @@ input[type="reset"] {
   margin: 10px;
   transition: background 0.3s, transform 0.2s;
 }
-
 input[type="submit"]:hover,
 input[type="reset"]:hover {
   background: #006bb3;
   transform: translateY(-2px);
 }
-
-/* Table styling */
 table {
   width: 90%;
   margin: 20px auto;
   border-collapse: collapse;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
-
 table th, table td {
   padding: 12px;
   border: 1px solid #ddd;
   text-align: center;
 }
-
 table th {
   background: #004e92;
   color: #fff;
 }
-
 table tr:nth-child(even) {
   background: #f2f6fa;
 }
-
-/* Marquee styling */
 marquee {
   background: #004e92;
   color: #fff;
